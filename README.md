@@ -19,17 +19,17 @@ UnorderedsetArrayOfQueueDynamic<Key>(size_t totalNumberOfThreads);
 ## 2. Insert
 Insert into the queue can be done by calling: 
 ```cpp
-void queue.insert(Key val, size_t threadId);
+void insert(Key val, size_t threadId);
 ```
 
 ## 3. Remove
 Remove element from the data structure (order DOESN'T matter)
 ```cpp
-Key queue.remove(size_t threadId);
+Key remove(size_t threadId);
 ```
 
 ## 4. Empty
 Check if the work-list is empty
 ```cpp
-bool queue.empty();
+bool empty();
 ```
