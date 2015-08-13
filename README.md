@@ -13,7 +13,7 @@ Please include the "unorderedset-array-of-queue-dynamic.hpp" file in your source
 # Interface
 ## 1. Constructor
 ```cpp
-UnorderedsetArrayOfQueueDynamic<Key>(size_t totalNumberOfThreads);
+UnorderedSetArrayOfQueueDynamic<Key>(size_t totalNumberOfThreads);
 ```
 
 ## 2. Insert
